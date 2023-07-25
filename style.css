@@ -1,0 +1,206 @@
+/* Reset some default styles to ensure consistent rendering across browsers */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a default font family and size */
+
+body {
+  font-family: "Lato";
+}
+.btn {
+  width: 177px;
+  height: 64px;
+  padding: 20px 43px;
+  background: #e55473;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Set a max-width and center the content horizontally */
+
+.container {
+  max-width: 1420px;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+/* hero section */
+.hero-section {
+  width: 100%;
+  height: 850px;
+  background: rgba(229, 84, 115, 0.1);
+}
+.hero-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.content-left {
+  font-family: "Lato";
+  display: flex;
+  flex-direction: column;
+}
+.content-right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.content-right img {
+  width: 100%;
+  height: 100%;
+}
+
+/* featured section */
+
+.feature-section {
+  width: 100%;
+  margin-top: 100px;
+}
+.flowers-card {
+  width: 100%;
+  height: 605px;
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+.card {
+  width: 464px;
+  height: 100%;
+}
+.card-rectangle {
+  width: 100%;
+  height: 538px;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.support-content {
+  width: 100%;
+  height: 320px;
+  background: rgba(39, 39, 39, 0.05);
+  border-radius: 8px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+}
+
+/* offer section */
+
+.offer-section {
+  width: 100%;
+  height: 620px;
+  background: rgba(229, 84, 115, 0.05);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.offer-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+}
+.offer-content .content-left {
+  font-family: "Lato";
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.offer-content .content-right {
+  width: 318px;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.offer-content .content-right img {
+  width: 100%;
+  height: 100%;
+}
+
+/* deals section */
+
+.deals-section {
+  width: 100%;
+  margin-top: 100px;
+}
+.deals-product-card {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin-top: 50px;
+}
+.deals-product-card .card {
+  width: 342px;
+  height: 396px;
+}
+.deals-content {
+  width: 100%;
+  height: 449px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  margin-top: 80px;
+  position: relative;
+}
+.deals-content img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+/* footer section */
+
+.footer-section {
+  width: 100%;
+  height: 449px;
+  background: #111010;
+  margin-top: 100px;
+}
+.footer-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+}
